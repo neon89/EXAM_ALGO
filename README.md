@@ -1,5 +1,7 @@
 # EXAM_ALGO
-Exam_algo_trading_quant_platform2
+
+
+## Exam_algo_trading_quant_platform2
 The aim of this project is to develop an algorithmic trading notebook that models different types of strategies using any applicable market instrument from tqoa-Oanda/Reuters. As we cannot integrate the API directly, we will use static data in this project. Our strategy will be focused on the "BRENT" instrument Cal 2005 to Cal 2023.
 
 To forecast the market's direction (up or down), we will use a broad library of model approaches. The range of models integrated into the project is intentionally wide, spanning from very static conventional approaches to more machine learning approaches. It is important that all the chosen models in the project remain comparable based on their cumulative returns, the accuracy (test data), and the cumulative strategy. Obviously there are some limits to the comparability, since some models are integrating a split of test and train data and simple models are based on a constraint based approach such as RSI and Bolliger Band.
@@ -23,7 +25,9 @@ The price data source and information are as follows:
 1. Oanda Free account / Reuters historical data 2005 to 2023 Brent prices 
 2. Open, High, low, close and volume 
 3. Adding additional Plots 
-4. Lagged price data with a lag of 5 steps 
+4. Lagged price data with a lag of 5 steps
+
+
 For python script we are mostly going to work with a jupyter notebook "exam_script" combined with a "formula_collection.py" script which is saving some helper function to support the main jupyter notebook. The Data import is based on "brent_ohlcv.xlsx" with historicals from 2005 to 2023.
 
 Changes to the initial submitted Project:
