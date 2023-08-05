@@ -30,6 +30,13 @@ The price data source and information are as follows:
 
 For python script we are mostly going to work with a jupyter notebook "exam_script" combined with a "formula_collection.py" script which is saving some helper function to support the main jupyter notebook. The Data import is based on "brent_ohlcv.xlsx" with historicals from 2005 to 2023.
 
+##### Notes to github and google_colab
+The requirement for the submission of the project is that the .ipynb script runs on "google colab" connected with the publication of the github string /content/EXAM_ALGO/. In the first part of the code structre below we need: 
+1. Connect to the public script in github
+2. Clone https://github.com/neon89/EXAM_ALGO.git including brent_ohlcv.xlsx and formula_collection.py
+3. Import with a corrected path the excel data 
+4. Set up the helper function imports for "formula_collection" with mounting google drive & install ipynb
+
 Changes to the initial submitted Project:
 I changed the input Price time series from Oil WTI to Oil Brent since i got the chance to get a time serie from 2005 to 2023 which is way better than intra day move of one month from the WTI
 I switched in the Sklearn model from the initial Ridge classifier to KNN, since outputs with the other ridge Sklearn model was pretty similar to Logistic classifier. KNN showed very interesting and good results
